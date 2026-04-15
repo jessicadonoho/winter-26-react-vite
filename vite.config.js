@@ -6,7 +6,7 @@ import babel from '@rolldown/plugin-babel'
 export default defineConfig({
   plugins: [
     react(),
-    base:'/',
+    base:'/winter-26-react-vite/',
     babel({ presets: [reactCompilerPreset()] })
   ],
 })
